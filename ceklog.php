@@ -1,4 +1,5 @@
 <?php
+//file koneksi ke database
 include"config/conn.php";
 
 $pass=md5($_POST['password']);
